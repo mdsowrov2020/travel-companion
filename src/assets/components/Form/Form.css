@@ -1,0 +1,50 @@
+.add-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-form .form-container {
+  width: 100%;
+  border-radius: 5px;
+  height: 60px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow: hidden;
+}
+
+.add-form .form-container form .input-select {
+  height: 60px;
+  border-radius: 5px 0 0 5px;
+  width: 15%;
+  text-align: center;
+  /* background-color: transparent; */
+  border: none;
+  outline: none;
+  box-shadow: none;
+  /* background-color: #f4f4f4; */
+}
+.add-form .form-container form .inp {
+  height: 60px;
+  width: 70%;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.add-form .form-container form button {
+  height: 60px;
+  border-radius: 0 5px 5px 0;
+  width: 15%;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #272928;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

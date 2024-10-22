@@ -1,0 +1,34 @@
+/* 
+color-1: #04ADBF
+color-2: #A66D03
+color-3: #F2C0A2
+color-4: #F25F29
+color-5: #8C3623
+
+*/
+
+.logo-main {
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f25f29; */
+  border-bottom: 1px solid #ececec;
+}
+
+.logo-main .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-main .logo h2 {
+  /* font-family: "Rubik Bubbles", system-ui; */
+  /* font-family: "Monoton", sans-serif; */
+  /* font-family: "Londrina Sketch", sans-serif; */
+  /* font-family: "Grandstander", cursive; */
+  font-size: 50px;
+  font-weight: 700;
+  color: #383838;
+  text-transform: uppercase;
+}

@@ -1,0 +1,43 @@
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selected-main {
+  width: 100%;
+}
+
+.selected-main p {
+  font-size: 16px;
+  color: #484848;
+  cursor: pointer;
+  padding-bottom: 15px;
+}
+
+.selected-list {
+  width: 100%;
+  display: block;
+}
+
+.selected-list li {
+  padding: 15px 7px;
+  border-bottom: 1px solid #dedede;
+  list-style-type: none;
+  background-color: #f4f3f3;
+}
+.selected-list li:last-child {
+  border-bottom: none;
+}
+.selected-list li .packed-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}

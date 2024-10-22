@@ -1,0 +1,11 @@
+footer {
+  padding: 25px 0;
+  background-color: #238c65;
+  text-align: center;
+}
+
+.footer-container h4 {
+  font-size: 20px;
+  color: rgb(249, 248, 248);
+  font-weight: 500;
+}

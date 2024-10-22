@@ -1,0 +1,29 @@
+.trip-form form {
+  display: flex;
+  gap: 10px;
+}
+.trip-form form .trip-name {
+  height: 60px;
+  width: calc(100% - 85px);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.trip-form form button {
+  height: 60px;
+  border-radius: 0 5px 5px 0;
+  width: 81px;
+  text-align: center;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #272928;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

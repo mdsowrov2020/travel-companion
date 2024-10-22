@@ -1,0 +1,17 @@
+.packing-main {
+  width: 100%;
+  /* height: 80vh; */
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.packing-main .packing-container {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
